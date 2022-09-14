@@ -32,7 +32,7 @@ export default function App() {
   }
 
   function countPositiveFeedbackPercentage() {
-    if (countTotalFeedback()) {
+    if (!countTotalFeedback()) {
       return 0;
     }
     const posFeedback = Number(
