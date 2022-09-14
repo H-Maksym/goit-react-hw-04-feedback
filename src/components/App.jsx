@@ -40,14 +40,10 @@ export default class App extends Component {
         style={{
           width: '450px',
           height: 'auto',
-          // padding: '20px',
           // minHeight: '100vh',
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'center',
-          // alignItems: 'center',
-          // fontSize: 30,
-          // color: '#010101',
         }}
       >
         <h1>React homework</h1>
